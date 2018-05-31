@@ -7,7 +7,7 @@
 
 // example 1 ////
 
-if statment way
+//if statment way
 let inside = true;
 
 if (inside){
