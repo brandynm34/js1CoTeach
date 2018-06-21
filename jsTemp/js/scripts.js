@@ -26,7 +26,6 @@ console.log(person);
 
 // When defining an object we use let or var, If you us const you are nu able to change the object in any way
 
-
 // Accessing object properies
 // (name of object).(key)
 
@@ -46,10 +45,9 @@ object1['color'] = 'pink';
 console.log(object1.color);
 
 // FOR...IN loop
+// best way to iterate over objects
 // syntax
-// for(let key in object) {
-//
-// }
+// for(let key in object) {}
 
 for (let per in person) {
   console.log('key', per, 'value', person[per]);
@@ -81,5 +79,5 @@ console.log('object1',object1);
 
 // the newObj value change is done to the newObj. object1 has all its orginal keys and values 
 // the newObj does holds all values of object one even if we change a value of a key due to inhertiance
-// We use Object.create() so the the new Objects is not stores at the same place the old object is
+// We use Object.create() so that the new Object is not stores at the same place the old object is
 // {this would cause the changing of both objects instead os just the new objects}
